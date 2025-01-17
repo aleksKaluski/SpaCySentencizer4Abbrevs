@@ -73,15 +73,18 @@ regex_patterns = [
 Contributions are welcome! Feel free to open an issue or submit a pull request if you have improvements or bug fixes.
 
 ## Sources: 
-SpaCySentencizer4Abbrevs leverages the SRX file from LanguageTool to enhance sentence segmentation for text containing abbreviations. The SRX rules used in this project are sourced from LanguageTool's repository, specifically: languagetool-core/src/main/resources/org/languagetool/resource/segment.srx.
+SpaCySentencizer4Abbrevs leverages the SRX file from LanguageTool to enhance sentence segmentation for text containing abbreviations. The SRX rules used in this project are sourced from LanguageTool's repository, specifically: 
+https://github.com/languagetool-org/languagetool/blob/master/languagetool-core/src/main/resources/org/languagetool/resource/segment.srx
 
 Key functionalities of the program, including:
 - The structure of the Rule class
 - SRX rule parsing
 - Compatibility adjustments for rules
 are either directly adapted from or heavily inspired by the work in the spaCy-PL utilities repository.
+https://github.com/spacy-pl/utils
 
-Additionally, thanks to spaCy's publicly available codebase, I was able to customize the Sentencizer class to further improve functionality. See spaCy’s implementation: spacy/pipeline/sentencizer.pyx.
+Additionally, thanks to spaCy's publicly available codebase, I was able to customize the Sentencizer class to further improve functionality. See spaCy’s implementation: 
+https://github.com/explosion/spaCy/blob/master/spacy/pipeline/sentencizer.pyx
 
 ## License
 This project is licensed under the CC0-1.0 license.
