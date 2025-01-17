@@ -73,8 +73,7 @@ regex_patterns = [
 Contributions are welcome! Feel free to open an issue or submit a pull request if you have improvements or bug fixes.
 
 ## Sources: 
-SpaCySentencizer4Abbrevs leverages the SRX file from LanguageTool to enhance sentence segmentation for text containing abbreviations. The SRX rules used in this project are sourced from LanguageTool's repository, specifically:
-languagetool-core/src/main/resources/org/languagetool/resource/segment.srx.
+SpaCySentencizer4Abbrevs leverages the SRX file from LanguageTool to enhance sentence segmentation for text containing abbreviations. The SRX rules used in this project are sourced from LanguageTool's repository, specifically: languagetool-core/src/main/resources/org/languagetool/resource/segment.srx.
 
 Key functionalities of the program, including:
 - The structure of the Rule class
